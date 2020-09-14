@@ -1,7 +1,12 @@
-body,
 html
 {
-	margin: 0;
+    height: 100%;
+}
+body
+{
+    height: 100%;
+    padding: 0;
+    margin: 0;   
 }
 
 main
@@ -151,7 +156,7 @@ main h2
 .element
 {
     display: flex;
-    flex-direction: space-around;
+    justify-content: space-around;
     padding: 20px;
 }
 
@@ -220,12 +225,17 @@ main h2
     text-transform: uppercase;
     color: black;
     font-weight: bold;
-
 }
 
 .boss 
 {
     font-weight: bold;
+}
+
+.icons_color
+{
+    margin-right: 35px;;
+    color: #FBC02D
 }
 
 
