@@ -240,7 +240,8 @@ main h2
 
 
 /*Responsive*/
-@media all and (max-width: 1024px) {
+@media all and (max-width: 1024px)
+{
     main 
     {
         width: 100%;
@@ -278,19 +279,33 @@ main h2
     }
 }
 
-@media all and (max-width: 480px) {
-    header {
+@media all and (max-width: 480px) 
+{
+    header 
+    {
         margin-bottom: 40px;
         font-size: 10px;
     }
      
-    main h2 {
+    main h2 
+    {
         font-size: 130%;
     }
 }
 
-@media all and (max-width: 380px){
-    h1{
+@media all and (max-width: 300px)
+{
+    h1
+    {
         font-size: 18px;
+    }
+}
+
+@media all and (max-width: 300px)
+{
+    #sidebar 
+    {
+        flex-direction: column;
+        width: 100%;
     }
 }
