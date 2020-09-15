@@ -211,6 +211,11 @@ main h2
     font-weight: bold;
 }
 
+article p
+{
+    max-width: 600px;
+}
+
 .liste_boss
 {
     font-size: 0.9em;
