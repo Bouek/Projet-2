@@ -292,10 +292,41 @@ article p
         font-size: 10px;
     }
      
-    main h2 
+    main h2
     {
-        font-size: 130%;
+        font-size: 100%;
     }
+
+    .liste_boss h3
+    {
+        font-size: 100%;
+    }
+
+    .boss
+    {
+        font-size: 55%;
+    }
+
+    .liste_boss p
+    {
+        font-size: 60%;
+    }
+
+    #sidebar h2
+    {
+        font-size: 100%;
+    }
+
+    #sidebar ul
+    {
+        font-size: 80%;
+    }
+
+    #sidebar p
+    {
+        font-size: 80%;
+    }
+
 }
 
 @media all and (max-width: 300px)
@@ -306,11 +337,12 @@ article p
     }
 }
 
-@media all and (max-width: 300px)
+@media all and (max-width: 280px)
 {
-    #sidebar 
+    #sidebar
     {
-        flex-direction: column;
         width: 100%;
     }
+
 }
+
